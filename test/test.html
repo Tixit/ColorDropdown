@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+	</head>
+	<body></body>
+	<script src="https://localhost:9000/PluginTester.umd.js"></script>
+	<script src="../dist/ColorDropdown-dev.umd.js"></script>
+	<script>
+
+        PluginTester.Api.Ticket.create().then(function(ticket){
+		    ticket.subject.status = "open"
+
+			var pluginOptions = {
+			  field: "status",
+			  states: {
+				open: "gray",
+				inProgress: "yellow",
+				complete: "green"
+			  }
+			}
+
+			PluginTester('ColorDropdown', pluginOptions, {ticketId: ticket.subject._id, showEditor: true})
+        }).done()
+	</script>
+</html>

@@ -1,0 +1,15 @@
+{"name":"ColorDropdown",
+ "version":"1.0.0",
+ "main":"ColorDropdown.js",
+ "description": "A Tixit plugin that shows a choice-field (like a status) as a color.",
+ "keywords": [
+    "dropdown","color","gem","tixit","plugin"
+ ],
+ "dependencies":{
+      "build-modules": "*"
+ },
+ "repository": {
+   "type": "git",
+   "url": "git://github.com/Tixit/ColorDropdown.js"
+ }
+}
