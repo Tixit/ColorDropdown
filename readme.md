@@ -4,7 +4,7 @@
 
 This is a [Tixit](https://tixit.me/) plugin that shows a status (or other `choice` field) as a color, and let's the user pick the status via a dropdown.
 
-![Example of TimeTracker](https://github.com/cookiesncream716/timeTracker/blob/master/TimeTracker.png?raw=true)
+![Example of TimeTracker](ColorDropdown.png?raw=true)
 
 For more information about Tixit plugins go here: [http://docs.tixit.me/d/Plugin_API](http://docs.tixit.me/d/Plugin_API).
 
