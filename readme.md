@@ -2,7 +2,7 @@
 =====
 
 
-This is a [Tixit](https://tixit.me/) plugin that shows a status (or other `choice` field) as a color, and let's the user pick the status via a dropdown.
+This is a [Tixit](https://tixit.me/) plugin that shows a status (or other `choice` field) as a color and lets the user pick the status via a dropdown.
 
 ![Example of ColorDropdown](ColorDropdown.png?raw=true)
 
